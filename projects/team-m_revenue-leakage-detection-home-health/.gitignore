@@ -1,0 +1,58 @@
+# Environment & Secrets
+.env
+*.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (use synthetic samples only in /data)
+*.csv
+*.parquet
+*.delta
+*.json
+!data/README.md
+
+# ML artifacts (link externally)
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+mlruns/
+mlflow/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Large files (>50MB not allowed per submission rules)
+*.zip
+*.tar.gz
+*.rar
